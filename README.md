@@ -1,17 +1,17 @@
-# get-request-ip
+# ip-from-request
 
 A simple and powerful Ip location resolution library.
 
 ## Installation
 ```sh
-npm install get-request-ip --save
+npm install ip-from-request --save
 ```
 
 ## Usage
 ```js
 // HAPI JS example
 const Hapi = require('@hapi/hapi');
-const getRequestIp = require('get-request-ip');
+const getRequestIp = require('ip-from-request');
 
 const init = async () => {
     const server = Hapi.server({ ... });

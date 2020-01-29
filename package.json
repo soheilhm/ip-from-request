@@ -1,5 +1,5 @@
 {
-  "name": "get-request-ip",
+  "name": "ip-from-request",
   "version": "1.0.0",
   "description": "resolve request to ip addresses",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soheilhm/get-request-ip.git"
+    "url": "git+https://github.com/soheilhm/ip-from-request.git"
   },
   "keywords": [
     "ip",
@@ -20,9 +20,9 @@
   "author": "Soheil Hajimohammadi <soheil.hm@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/soheilhm/get-request-ip/issues"
+    "url": "https://github.com/soheilhm/ip-from-request/issues"
   },
-  "homepage": "https://github.com/soheilhm/get-request-ip#readme",
+  "homepage": "https://github.com/soheilhm/ip-from-request#readme",
   "dependencies": {
     "lodash.get": "^4.4.2"
   }
