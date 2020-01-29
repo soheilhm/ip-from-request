@@ -1,0 +1,29 @@
+{
+  "name": "get-request-ip",
+  "version": "1.0.0",
+  "description": "resolve request to ip addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soheilhm/get-request-ip.git"
+  },
+  "keywords": [
+    "ip",
+    "location",
+    "request",
+    "nodejs",
+    "clientIP"
+  ],
+  "author": "Soheil Hajimohammadi <soheil.hm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soheilhm/get-request-ip/issues"
+  },
+  "homepage": "https://github.com/soheilhm/get-request-ip#readme",
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  }
+}
