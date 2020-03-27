@@ -20,7 +20,7 @@ const init = async () => {
         method: 'GET',
         path: '/',
         handler: (request, h) => {
-            const clientIp = getRequestIp(req); // e.g. 127.0.0.1
+            const clientIp = getRequestIp(request); // e.g. 127.0.0.1
             // ...
         }
     });
